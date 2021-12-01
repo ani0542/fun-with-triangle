@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Fun with triangles</h1>
+      <nav class="nav">
+        <a class="links" href="index.html">is Triangle?</a>
+        <a class="links" href="quiz.html">Quiz</a>
+        <a class="links" href="hypotenuse.html">Hypotenuse</a>
+        <a class="links" href="area.html">Area</a>
+      </nav>
+    </header>
+    <div class="content">
+      <h1>Check area of Triangle</h1>
+      <form id="calculate-area">
+        <label class="input-label" for="first-side">
+          <p>Enter first side of a triangle</p>
+          <input class="inputs" required type="number" id="first-side" />
+        </label>
+        <label class="input-label" for="second-side">
+          <p>Enter second side of a triangle</p>
+          <input class="inputs" required type="number" id="second-side" />
+        </label>
+        <label class="input-label" for="third-side">
+          <p>Enter third side of a triangle</p>
+          <input class="inputs" required type="number" id="third-side" />
+        </label>
+        <button class="btn" type="submit">Calculate</button>
+        <p class="output calculate-area-output" id="output"></p>
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="foot">
+       
+       
+      </div>
+    </footer>
+    <script src="area.js"></script>
+  </body>
+</html>
